@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IM+Fell+Double+Pica:ital@0;1&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+     <!-- icon library import -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script defer src="script.js"></script>
+<script defer src="index.js"></script>
+    <title>Rizal Weekly</title>
+</head>
+<body>
+    <div class="nav_bar"> 
+        
+        <nav>
+            <h1 class="logo">Rizal Weekly</h1>
+            <input type="checkbox" id="check">
+            <label class="checkbtn" for="check">
+            <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav_links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./works.html">Works</a></li>
+                <li><a href="./analysis.html">Analysis</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="body-container">
+        <div class="title-container">
+            <h1 class="title-container-header">Featured Content</h1>
+            <p class="date"></p>
+        </div>
+        <hr class="hr_thin">
+
+        <div class="gallery">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mRRh95OhZQ0?si=DcGqRmZoebe5y8Ol" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+    </div>
+        <div class="related-works">
+            <h1 class="related-works-header">More Related Works of Rizal</h1>
+            <hr class="hr_thin">
+            <p class="intro-text">Discover more of José Rizal’s influential writings that shaped Philippine history. From thought-provoking essays to groundbreaking novels, explore his works that continue to inspire and challenge minds today. Dive deeper into Rizal’s vision, his advocacy for reform, and his enduring legacy.</p>
+            
+            <div class="rw-gallery">
+                <div class="frame">
+                    <img src="book-cover.jpg" alt="Illustrated book cover inspired by Rizal's Indolence of the Filipino People">
+                    <h3>Indolence of the Filipino People Inspired Book Covers</h3>
+                    <p class="description">This five-part essay, originally serialized in La Solidaridad, was Rizal’s response to claims of Filipino laziness. It delves into historical and societal factors shaping Filipino work ethics. </p>
+                    <button class="card-button" onclick="window.open('https://www.gutenberg.org/ebooks/6885')">Read More</button>
+                </div>
+                
+                <div class="frame">
+                    <img src="la-solidaridad.jpg" alt="La Solidaridad Newspaper Cover">
+                    <h3>About La Solidaridad - The Book Publisher</h3>
+                    <p class="description">La Solidaridad was a beacon of reform, advocating for Filipino representation in the Spanish government. Founded in 1888, it became the voice of the Propaganda Movement.</p>
+                    <button class="card-button" onclick="window.open('https://www.britannica.com/topic/La-Solidaridad', '_blank')">Read More</button>
+                </div>
+                
+                <div class="frame">
+                    <img src="map.jpg" alt="Historical map of the Philippine Islands">
+                    <h3>Map of the Philippine Islands by Pedro Murillo Velarde</h3>
+                    <p class="description">Created in 1734 and republished in 1774, this detailed map highlights the rich history of the archipelago, showcasing indigenous settlements, maritime routes, and Spanish influence.</p>
+                    <button class="card-button" onclick="window.open('https://www.loc.gov/item/2021668467/', '_blank')">Read More</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <p>National University Fairview: Rizal's Life, Works, and Legacy</p>
+            <p>2025</p>
+        </footer>
+    </div>
+</body>
+</html>
