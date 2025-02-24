@@ -400,7 +400,6 @@ footer hr{
         position:fixed;
         width: 100%;
         left:0;
-        background-color: #DACDC6;
         overflow: hidden;
         z-index: 5;
         top:0;
@@ -418,15 +417,16 @@ footer hr{
         left:-100%;
         top:80px;
         z-index:4;
-overflow: hidden;
+        overflow: hidden;
         text-align: center;
         transition: all .5s;
         margin:3rem 0 0 0;
+        padding:0;
+       
     }
 
     .nav_links li{
         display:block;
-        
         width:fit-content;
         margin: 2rem auto;
         
@@ -434,7 +434,7 @@ overflow: hidden;
     }
     .nav_links li a{
         font-size:20px;
-        padding:10px 125px;
+        padding:10px auto;
         border-radius:10px;
 
     }
@@ -548,3 +548,9 @@ overflow: hidden;
     }
 
 }
+
+    @media(max-width:600px){
+        .nav_links{
+            top:50px;
+        }
+    }
